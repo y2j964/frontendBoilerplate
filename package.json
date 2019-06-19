@@ -1,7 +1,7 @@
 {
-  "name": "seinfeldquizshow",
+  "name": "frontendboilerplate",
   "version": "1.0.0",
-  "description": "a Seinfeld quote game show ",
+  "description": "a simple front-end boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
@@ -10,7 +10,7 @@
   "author": "Justin Mooney",
   "repository": {
     "type": "git",
-    "url": "https://github.com/y2j964/SeinfeldTriviaGame.git"
+    "url": "https://github.com/y2j964/frontendBoilerplate.git"
   },
   "license": "ISC",
   "devDependencies": {
