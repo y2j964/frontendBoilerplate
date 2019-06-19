@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@import 'abstracts/variables.scss';
+@import 'base/default.scss';
+@import 'base/miscellaneous.scss';
+@import 'base/typography.scss';
+@import 'components/answers.scss';
+@import 'components/btn.scss';
+@import 'components/btn-pointed.scss';
+@import 'components/high-scores.scss';
+@import 'components/lifeline.scss';
+@import 'components/question.scss';
+@import 'components/table-row-border.scss';
+@import 'components/user-initials-form.scss';
+
+@tailwind utilities;
