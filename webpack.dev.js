@@ -1,5 +1,7 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 const merge = require('webpack-merge');
 const path = require('path');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
 
@@ -21,8 +23,8 @@ module.exports = merge(common, {
         use: [{ loader: 'html-srcsets-loader', options: { minimize: false } }],
       },
       {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
       {
         test: /\.(png|jpg|gif|svg)$/i,
